@@ -17,7 +17,7 @@ const Aboutme = () => {
           <Aboutcard
             header="Favorite Artist"
             middle={drake}
-            footer="When working on tasks, especially programming, I am much more efficient when listening to music. Drake is one of my favorite artists becuase of his style and diversity."
+            footer="When working on tasks, especially programming, I am much more efficient when listening to music. Drake is one of my favorite artists because of his style and diversity."
           />
           <Aboutcard
             header="Current Favorite Hobby"
