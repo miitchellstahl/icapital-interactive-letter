@@ -1,0 +1,35 @@
+h5 {
+  font-weight: 400;
+}
+h1 {
+  text-align: center;
+}
+
+header {
+  overflow: hidden;
+}
+
+#date {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.header__text {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.header__text h5 {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header__text {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .header__text {
+    width: 90%;
+  }
+}

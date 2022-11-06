@@ -1,0 +1,56 @@
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-box {
+  min-height: 30rem;
+  background: var(--color-secondary);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.box-categories h4 {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.exhibit-a {
+  margin-top: 2rem;
+}
+
+.story {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .box-button h5 {
+    font-size: 1rem;
+  }
+  .blue-box {
+    height: 100%;
+  }
+
+  .box-categories h4 {
+    font-size: 1.5rem;
+  }
+  .exhibit-a {
+    text-align: center;
+  }
+  .story {
+    text-align: center;
+  }
+}

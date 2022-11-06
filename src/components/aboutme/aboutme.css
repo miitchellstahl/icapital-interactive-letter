@@ -1,0 +1,35 @@
+.blue-box-about {
+  padding: 1rem 0;
+  min-height: 40rem;
+  background: var(--color-secondary);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 0 auto;
+}
+
+#aboutme {
+  padding-bottom: 4rem;
+  border-bottom: 5px solid var(--color-primary);
+}
+
+.blue-box-about h4 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.about-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1150px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

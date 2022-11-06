@@ -1,13 +1,157 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-bg: linear-gradient(180deg, #f7eeff 0%, #eff6ff 100%);
+  --color-primary: #0277aa;
+  --color-secondary: #d6e1e8;
+  --color-gradient: linear-gradient(
+    280.94deg,
+    #d6e1e8 -25.87%,
+    #0277aa 121.52%
+  );
+  --color-text: #676767;
+
+  --container-width-lg: 85%;
+  --container-width-md: 90%;
+  --container-width-sm: 95%;
+
+  --transition: all 400ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#f7eeff),
+      to(#eff6ff)
+    )
+    fixed;
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 4.209rem;
+}
+h2 {
+  font-size: 3.157rem;
+}
+h3 {
+  font-size: 2.369rem;
+}
+h4 {
+  font-size: 1.777rem;
+}
+h5 {
+  font-size: 1.333rem;
+}
+p {
+  font-size: 1rem;
+}
+
+.text-primary {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+section {
+  margin-top: 5rem;
+  /* min-height: 100vh; */
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: white;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: white;
+  background: var(--color-primary);
+  border: 3px solid var(--color-primary);
+  padding: 16px 32px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.shadow {
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.shadow-text {
+  text-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section {
+    margin-top: 4rem;
+  }
 }

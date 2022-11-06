@@ -1,0 +1,37 @@
+.blue-box-numbers {
+  min-height: 30rem;
+  background: var(--color-secondary);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.numbers-grid {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.exhibit-b {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .numbers-grid {
+    padding: 2rem 0;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .exhibit-b {
+    text-align: center;
+  }
+}
