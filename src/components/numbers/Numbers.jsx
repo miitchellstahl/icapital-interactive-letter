@@ -6,7 +6,7 @@ const Numbers = () => {
   return (
     <section id="numbers">
       <div className="blue-box-numbers container shadow" data-aos="fade-up">
-        <h4 className="text-primary shadow-text">Disecting the Numbers</h4>
+        <h4 className="text-primary shadow-text">Dissecting the Numbers</h4>
         <div className="numbers-grid">
           <Numberscard
             header="Increased Assets to"
