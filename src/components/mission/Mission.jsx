@@ -2,9 +2,6 @@ import React from "react";
 import "./mission.css";
 import { useState } from "react";
 import JSConfetti from "js-confetti";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-// AOS.init();
 
 const jsConfetti = new JSConfetti();
 
@@ -36,7 +33,10 @@ const Mission = () => {
         that Tim has the smoothest investment process possible. Click on the
         button below to see Tim's before and after.
       </h5>
-      <div className="container blue-box shadow" data-aos="fade-up">
+      <div
+        className="container blue-box shadow gradient-class"
+        data-aos="fade-up"
+      >
         <div className="box-title">
           <h4>Before & After iCapital</h4>
         </div>

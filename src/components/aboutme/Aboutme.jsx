@@ -8,10 +8,11 @@ import Aboutcard from "../aboutcard/Aboutcard";
 const Aboutme = () => {
   return (
     <section id="aboutme">
-      <div className="blue-box-about container shadow" data-aos="fade-up">
-        <h4 className="text-primary text-shadow">
-          Brief Stats About Mitchell Stahl
-        </h4>
+      <div
+        className="blue-box-about container shadow gradient-class"
+        data-aos="fade-up"
+      >
+        <h4 className="text-shadow">Brief Stats About Mitchell Stahl</h4>
         <div className="about-grid">
           <Aboutcard
             header="Favorite Artist"

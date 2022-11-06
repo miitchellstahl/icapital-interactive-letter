@@ -7,8 +7,7 @@
 
 .blue-box {
   min-height: 30rem;
-  background: var(--color-secondary);
-  border-radius: 20px;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

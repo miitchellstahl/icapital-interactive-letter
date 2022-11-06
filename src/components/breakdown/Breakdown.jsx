@@ -6,8 +6,11 @@ import Typewriter from "typewriter-effect";
 const Breakdown = () => {
   return (
     <section id="breakdown">
-      <div className="blue-box-breakdown container shadow" data-aos="fade-up">
-        <h4 className="text-primary shadow-text">Let's Break it Down</h4>
+      <div
+        className="blue-box-breakdown container shadow gradient-class"
+        data-aos="fade-up"
+      >
+        <h4 className="shadow-text">Let's Break it Down</h4>
         <img className="shadow" src={photo} alt="" />
       </div>
       <div className="exhibit-c container">

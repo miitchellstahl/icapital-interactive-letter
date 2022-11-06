@@ -5,8 +5,11 @@ import "./numbers.css";
 const Numbers = () => {
   return (
     <section id="numbers">
-      <div className="blue-box-numbers container shadow" data-aos="fade-up">
-        <h4 className="text-primary shadow-text">Dissecting the Numbers</h4>
+      <div
+        className="blue-box-numbers container shadow gradient-class"
+        data-aos="fade-up"
+      >
+        <h4 className="shadow-text">Dissecting the Numbers</h4>
         <div className="numbers-grid">
           <Numberscard
             header="Increased Assets to"

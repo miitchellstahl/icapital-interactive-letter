@@ -1,8 +1,7 @@
 .blue-box-about {
   padding: 1rem 0;
   min-height: 40rem;
-  background: var(--color-secondary);
-  border-radius: 20px;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
