@@ -1,6 +1,6 @@
 # iCapital Interactive Letter
 
-This project was created to showcase some of my frontend programming using react. It is a playful project that allows iCapital to understand my skills and traits.
+This project was created to showcase some of my frontend programming skills using react. It is a playful project that allows iCapital to understand my skills and traits.
 
 
 ## 🚀 About Me
