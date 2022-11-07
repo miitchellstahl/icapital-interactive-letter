@@ -38,7 +38,7 @@ const Conclusion = () => {
             <br /> Remember that question I told you to think about?
             <br />
             <span className="text-primary">
-              The answer should be very, very obvious by now.
+              I hope the answer is very clear by now.
             </span>
           </h5>
 
