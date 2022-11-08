@@ -34,12 +34,6 @@ const Conclusion = () => {
             resume, all you have to do is send the link. If awarded the
             position, I will put my skills and effort towards advancing
             alternative investments.
-            <br />
-            <br /> Remember that question I told you to think about?
-            <br />
-            <span className="text-primary">
-              I hope the answer is very clear by now.
-            </span>
           </h5>
 
           <h5>

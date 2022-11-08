@@ -28,8 +28,10 @@ const Header = () => {
             show the <span className="text-primary">value</span> I would bring,
             this project is a <span className="text-primary">necessity.</span>
             <br />
-            <br /> I want you to keep this question in mind, <br />
-            <span className="text-primary">Who wants this more than I do?</span>
+            <br />I believe this project demonstrates more about me than any
+            technical interview can.
+            <br />
+            <h5 className="text-primary">Thank you</h5>
           </h5>
         </div>
       </div>
