@@ -29,11 +29,8 @@ const Conclusion = () => {
             Through this project, I have made my value to the company{" "}
             <span className="text-primary">easier to understand</span> by using
             technology to build a project that demonstrates some of my skills.
-            This is also much{" "}
-            <span className="text-primary">easier to access</span> than a
-            resume, all you have to do is send the link. If awarded the
-            position, I will put my skills and effort towards advancing
-            alternative investments.
+            If this project allowed you to see me from a different angle, I
+            would consider it a success.
           </h5>
 
           <h5>
